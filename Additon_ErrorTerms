@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Addition
+// author @Nipun Kataria
+{
+	 public static void main(String[] args) 
+	 {
+		 double x, y, z, err1, err2,err;
+		  
+		 Scanner value1 = new Scanner(System.in);
+	        System.out.print("Enter the numbers to be added");
+	        x = value1.nextDouble();
+	        y = value1.nextDouble();
+	        z = x + y;
+	        System.out.print("Enter the error terms");
+	        err1 = value1.nextFloat();
+	        err2 = value1.nextFloat();
+	        err = err1 + err2;
+	        System.out.println("Sum of the integers = " + z + "Error term = " + err);
+	 }
+}
